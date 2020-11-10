@@ -17,8 +17,6 @@
         "frontendServer_NIC": "frontendserver859"
     },
     "resources": [
-        
-        //NSG Backend
         {
             "type": "Microsoft.Network/networkSecurityGroups",
             "apiVersion": "2019-07-01",
@@ -66,8 +64,6 @@
                 ]
             }
         },
-        
-        //NSG Frontend
         {
             "type": "Microsoft.Network/networkSecurityGroups",
             "apiVersion": "2019-07-01",
@@ -149,8 +145,6 @@
                 ]
             }
         },
-
-        //PublicIP Backend
         {
             "type": "Microsoft.Network/publicIPAddresses",
             "apiVersion": "2019-07-01",
@@ -171,8 +165,6 @@
                 "ipTags": []
             }
         },
-
-        //PublicIP Backend2
         {
             "type": "Microsoft.Network/publicIPAddresses",
             "apiVersion": "2019-07-01",
@@ -193,8 +185,6 @@
                 "ipTags": []
             }
         },
-        
-        //PublicIP Frontend
         {
             "type": "Microsoft.Network/publicIPAddresses",
             "apiVersion": "2019-07-01",
@@ -215,8 +205,6 @@
                 "ipTags": []
             }
         },
-        
-        //Virtual Network
         {
             "type": "Microsoft.Network/virtualNetworks",
             "apiVersion": "2019-07-01",
@@ -247,8 +235,6 @@
                 "enableVmProtection": false
             }
         },
-        
-        //Backend VM
         {
             "type": "Microsoft.Compute/virtualMachines",
             "apiVersion": "2019-03-01",
@@ -303,8 +289,6 @@
                 }
             }
         },
-
-        //Backend2 VM
         {
             "type": "Microsoft.Compute/virtualMachines",
             "apiVersion": "2019-03-01",
@@ -359,8 +343,6 @@
                 }
             }
         },
-        
-        //Frontend VM
         {
             "type": "Microsoft.Compute/virtualMachines",
             "apiVersion": "2019-03-01",
@@ -415,8 +397,6 @@
                 }
             }
         },
-
-        //Virtual Network Subnets
         {
             "type": "Microsoft.Network/virtualNetworks/subnets",
             "apiVersion": "2019-07-01",
@@ -431,8 +411,6 @@
                 "privateLinkServiceNetworkPolicies": "Enabled"
             }
         },
-                      
-        //Backend NIC
         {
             "type": "Microsoft.Network/networkInterfaces",
             "apiVersion": "2019-07-01",
@@ -474,8 +452,6 @@
                 }
             }
         },
-        
-        //Backend2 NIC
         {
             "type": "Microsoft.Network/networkInterfaces",
             "apiVersion": "2019-07-01",
@@ -517,8 +493,6 @@
                 }
             }
         },
-       
-        //Frontend NIC
         {
             "type": "Microsoft.Network/networkInterfaces",
             "apiVersion": "2019-07-01",
